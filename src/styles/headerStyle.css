@@ -1,0 +1,159 @@
+header {
+    position: relative;
+}
+
+header .logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+
+header ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+header ul.nav li:hover {
+    opacity: 0.3;
+}
+
+header .shop-cart-button {
+    float: right;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+    color: #66fcf1;
+
+}
+
+header .shop-cart {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 450px;
+    background: #313b46;
+    box-shadow: -5px 4px 4px 0 rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -5px 4px 4px 0 rgba(0, 0, 0, 1);
+    -moz-box-shadow: -5px 4px 4px 0 rgba(0, 0, 0, 1);
+    z-index: 1000;
+    padding: 20px 20px 0;
+}
+
+header .shop-cart .empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .item img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+header .shop-cart .item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header .shop-cart .item p {
+    color: #c5c6c7;
+    font-weight: 700;
+}
+
+header .shop-cart .item .delete-icon {
+    color: #66fcf1;
+    float: right;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-cart .item .delete-icon:hover {
+    color: #1ce0fc;
+    transform: scale(1.5);
+}
+
+header .shop-cart .sum {
+    float: left;
+    width: 60%;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .buy-button {
+    float: right;
+    width: 30%;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #66fcf1;
+    transition: transform 1s linear;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+header .shop-cart .buy-button:hover {
+    float: right;
+    width: 30%;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #1ce0fc;
+    transform: scale(1.01)
+
+}
+
+header .presentation {
+    margin: 50px 0;
+    background: url('./../images/kapibara.png') no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #909ea7;
+    position: relative;
+}
+
+
+header .presentation:after {
+    content: 'Здесь ты найдешь игру своей мечты';
+    position: absolute;
+    bottom: 275px;
+    left: 425px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #66fcf1;
+}
+
+header .presentation:before {
+    content: 'По вкусным ценам';
+    position: absolute;
+    bottom: 240px;
+    left: 465px;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #66fcf1;
+}

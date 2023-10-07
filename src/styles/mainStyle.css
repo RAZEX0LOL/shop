@@ -1,0 +1,62 @@
+
+main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .item {
+    width: 30%;
+    margin-bottom: 50px;
+    background: #4e4e50;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+main .item img, .full-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+main .item img:hover, .full-item img:hover{
+    transform: scale(1.05);
+}
+
+main h2, .full-item h2,
+main p, .full-item p,
+main b, .full-item b  {
+    margin: 10px 20px;
+    color: #66fcf1;
+}
+
+main b, .full-item b {
+    color: #56beb3;
+}
+
+main .add-to-card,
+.full-item .add-to-card{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #66fcf1;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #1f2833;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    transition: transform 500ms ease;
+}
+
+main .add-to-card:hover,
+.full-item .add-to-card:hover{
+    transform: scale(1.5) translateY(-5px);
+
+}
