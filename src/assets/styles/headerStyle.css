@@ -137,8 +137,8 @@ header .presentation {
 header .presentation:after {
     content: 'Здесь ты найдешь игру своей мечты';
     position: absolute;
-    bottom: 275px;
-    left: 425px;
+    bottom: 260px;
+    left: 490px;
     width: 300px;
     font-size: 25px;
     font-weight: 700;
@@ -149,7 +149,7 @@ header .presentation:before {
     content: 'По вкусным ценам';
     position: absolute;
     bottom: 240px;
-    left: 465px;
+    left: 535px;
     width: 350px;
     font-size: 15px;
     font-weight: 400;
