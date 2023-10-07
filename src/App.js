@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Items from "./components/Items";
-import Categories from "./components/Categories";
-import ShowFullItem from "./components/ShowFullItem";
+import Header from "./components/global/Header";
+import Footer from "./components/global/Footer";
+import Items from "./components/global/Items";
+import Categories from "./components/global/Categories";
+import ShowFullItem from "./components/global/ShowFullItem";
 import axios from "axios";
 
 export default function App() {
